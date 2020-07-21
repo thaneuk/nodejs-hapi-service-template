@@ -1,0 +1,50 @@
+{
+  "name": "nodejs-hapi-service-template",
+  "version": "1.0.2",
+  "description": "Template to give bare-bones structure for new NodeJS Hapi service",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "dev:no:monitor": "node src/server.js",
+    "test": "jest --runInBand --detectOpenHandles",
+    "test:coverage": "jest --coverage --runInBand --detectOpenHandles"
+  },
+  "keywords": [
+    "template",
+    "service",
+    "microservice"
+  ],
+  "author": "Gregory Jackson",
+  "license": "",
+  "private": true,
+  "dependencies": {
+    "@hapi/hapi": "^19.2.0",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/vision": "^6.0.0",
+    "@hapi/hoek": "^9.0.4",
+    "hapi-swagger": "^13.0.2",
+    "nodemailer": "^6.4.10"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@types/boom": "^7.3.0",
+    "@types/catbox": "*",
+    "@types/hapi": "^18.0.3",
+    "@types/iron": "*",
+    "@types/joi": "*",
+    "@types/mimos": "*",
+    "@types/jest": "^26.0.5",
+    "@types/node": "latest",
+    "@types/podium": "*",
+    "@types/shot": "*",
+    "jest": "^25",
+    "jest-extended": "^0.11.5",
+    "nodemon": "^2.0.4",
+    "nyc": "^15.1.0"
+  },
+  "engines": {
+    "node": "^12"
+  }
+}

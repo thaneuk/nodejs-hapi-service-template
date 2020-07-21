@@ -1,0 +1,5 @@
+.idea
+node_modules
+test/coverage
+package-lock.json
+/nodejs-hapi-service-template.iml
