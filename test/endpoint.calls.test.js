@@ -11,7 +11,6 @@ beforeAll(() => {
     server = require('../src/server.js');
 
     server.then(s => {
-        console.log(s);
         port = s.settings.port;
     });
 
