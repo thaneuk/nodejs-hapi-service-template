@@ -14,7 +14,7 @@ module.exports = [{
     config: {
         auth: false,
         cors: {
-            origin: ['*.homedepot.com', '*//localhost:*'],
+            origin: ['*.domain.com', '*//localhost:*'],
             additionalHeaders: ['cache-control', 'x-requested-with']
         },
         description: 'health check',
